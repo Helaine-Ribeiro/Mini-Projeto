@@ -1,0 +1,118 @@
+body {
+  padding-top: 60px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px 0px;
+  width: 100%;
+  margin: 8px;
+  display: flex;
+  margin-right: 10px;
+  margin-right: 0;
+}
+
+.footer-content {
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.footer-content a {
+  margin-right: 10px;
+}
+
+.footer-content a:last-child {
+  margin-right: 0;
+}
+
+.footer-img {
+  padding-left: 10px;
+  margin: 8px;
+}
+
+.footer-img img {
+  margin-right: 10px;
+  /* Adiciona um espaçamento de 10 pixels à direita de cada imagem, exceto a última */
+}
+
+.footer-img img:last-child {
+  margin-right: 0;
+  /* Remove o espaçamento à direita da última imagem */
+}
+
+
+.navbar-brand img {
+  max-height: 40px;
+  /* Altura máxima da logo */
+  margin-right: 10px;
+  /* Espaçamento à direita */
+}
+
+.carousel-inner h5 {
+  font-size: 38px;
+}
+
+.carousel-inner p {
+  font-size: 28px;
+}
+
+.lista-produto {
+  color: #a19d9d;
+}
+
+.card-body {
+  background: rgb(0, 232, 143);
+  width: 100%;
+  padding: 20px;
+}
+
+.container-P {
+  flex: 0 0 calc(30% - 100px);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid #3c3a3a;
+  text-align: center;
+  border-radius: 10px;
+  /* Valor do raio da borda arredondada */
+  background: rgb(241, 240, 238);
+
+}
+
+.row ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.row ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.row ul li::before {
+  content: "\25BA";
+  /* Código Unicode para a seta direita */
+  position: absolute;
+  left: 0;
+}
+
+.row ul li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.row ul li:last-child {
+  margin-bottom: 0;
+}
